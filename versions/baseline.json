@@ -1,4 +1,8 @@
 {
   "default": {
+    "babylon": {
+      "baseline": "1.1.4",
+      "port-version": 0
+    }
   }
 }
