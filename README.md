@@ -18,6 +18,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/sunzhenkai/vcpkg-base/main
 
 # overlay port
 ```shell
-vcpkg install gperftools --overlay-ports=/home/wii/code/vcpkg-base/ports/
+vcpkg install gperftools --overlay-ports=$(pwd)/ports/
 ```
 
